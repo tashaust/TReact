@@ -1,4 +1,3 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 * {
@@ -17,13 +16,12 @@ h1 {
 
 h2 {
   font-size: 48px;
-  color: rgb(36, 62, 99);
+  color: #243e63;
   line-height: 1.25;
 }
 
 a {
   text-decoration: none;
-  position: relative;
 }
 
 p {
@@ -60,7 +58,7 @@ button {
 .section__title {
   font-size: 48px;
   font-weight: 900;
-  color: rgb(36, 62, 99);
+  color: #243e63;
   line-height: 1.5;
   margin: 16px 0;
   letter-spacing: 0.025em;
@@ -137,7 +135,6 @@ nav {
   margin-right: 15px;
   padding-bottom: 4px;
   border-bottom: 2px solid transparent;
-  position: relative;
 }
 
 .nav__link--primary {
@@ -190,9 +187,9 @@ header .row {
 .header__email--input {
   width: 100%;
   border-radius: 500px;
-  border: 2px solid rgb(229, 231, 235);
+  border: 2px solid #e5e7eb;
   padding: 20px 192px 20px 32px;
-  color: rgb(36, 62, 99);
+  color: #243e63;
   font-size: 16px;
   font-weight: 500;
   position: absolute;
@@ -285,7 +282,7 @@ header .row {
   margin-top: 16px;
   font-size: 16px;
   max-width: calc(634px / 3);
-  color: rgb(124, 139, 161);
+  color: #7c8ba1;
   line-height: 2;
   font-weight: 500;
 }
@@ -317,7 +314,7 @@ header .row {
   position: relative;
   z-index: 2;
   border-radius: 4px;
-  border: 1px solid rgb(229, 231, 235);
+  border: 1px solid #e5e7eb;
 }
 
 .quality__description {
@@ -477,10 +474,6 @@ header .row {
   opacity: 0.5;
 }
 
-.values__img {
-  display: flex;
-}
-
 .values__list {
   margin-left: 0px;
   margin-right: 0px;
@@ -623,8 +616,8 @@ header .row {
 
 .plan:nth-child(1) .plan__middle,
 .plan:nth-child(3) .plan__middle {
-  border-top: 2px solid rgb(229, 231, 235);
-  border-bottom: 2px solid rgb(229, 231, 235);
+  border-top: 2px solid #e5e7eb;
+  border-bottom: 2px solid #e5e7eb;
 }
 
 .plan__target {
@@ -675,7 +668,12 @@ header .row {
   background-color: #f7fafc;
 }
 
-.plan:nth-child(3) .plan__stripe, .plan:nth-child(3) .plan__button {
+.plan:nth-child(3) .plan__stripe,
+.plan:nth-child(3) .plan__button {
   color: #f7fafc;
-  background: linear-gradient(115deg, rgb(245, 101, 101)0%, rgb(254, 178, 178)100%);
+  background: linear-gradient(
+    115deg,
+    rgb(245, 101, 101) 0%,
+    rgb(254, 178, 178) 100%
+  );
 }
