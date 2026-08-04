@@ -1,8 +1,3 @@
-* {
-  font-family: "inter";
-  margin: 0;
-  box-sizing: border-box;
-}
 
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
@@ -52,10 +47,6 @@ button {
 
 .text__purple {
   color: #6415ff;
-}
-
-.section {
-  padding: 0 32px;
 }
 
 .section__tag {
@@ -174,13 +165,6 @@ header .row {
   justify-content: space-between;
 }
 
-.container {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  padding: 96px 0;
-}
-
 .header__description {
   width: 40%;
 }
@@ -243,16 +227,12 @@ header .row {
   color: #a0aec0;
   font-size: 12px;
   font-weight: 700;
-  letter-spacing: 0.6;
 }
+
 .header__customers {
   margin-top: 16px;
   padding-right: 128px;
   opacity: 0.5;
-}
-
-.header__img--wrapper {
-  width: calc(100%-40%);
 }
 
 .header__img {
@@ -335,7 +315,6 @@ header .row {
 .quality__img--wrapper {
   display: flex;
   position: relative;
-  margin: 0 56px;
   z-index: 2;
   border-radius: 4px;
   border: 1px solid rgb(229, 231, 235);
@@ -343,11 +322,6 @@ header .row {
 
 .quality__description {
   max-width: 576px;
-  margin-right: 64px;
-}
-
-.quality__img {
-  z-index: 1;
 }
 
 #quality .btn {
@@ -388,10 +362,6 @@ header .row {
   position: relative;
 }
 
-.steps__img {
-  z-index: 2;
-}
-
 .steps__description {
   padding: 32px 0;
   padding-left: 64px;
@@ -411,7 +381,7 @@ header .row {
 }
 
 .step__description {
-  display: display;
+  display: flex;
   flex-direction: column;
   margin-left: 24px;
   max-width: 320px;
@@ -460,14 +430,6 @@ header .row {
 #values .section__title {
   margin-top: 16px;
   margin-bottom: 32px;
-}
-
-.value:nth-of-type(1) {
-  margin-top: 32px;
-  margin-right: 32px;
-}
-.value:nth-of-type(2) {
-  margin-top: 32px;
 }
 
 .value__title {
@@ -523,8 +485,6 @@ header .row {
   margin-left: 0px;
   margin-right: 0px;
   display: flex;
-  max-width: none;
-  flex-direction: row;
 }
 
 /* Pricing */
@@ -546,6 +506,7 @@ header .row {
 
 .plans {
   display: flex;
+  justify-content: space-between;
   position: relative;
   flex-direction: row;
   width: 100%;
@@ -562,7 +523,6 @@ header .row {
   background-color: rgb(255, 255, 255);
   padding-left: 2rem;
   padding-right: 2rem;
-  margin-right: 2rem;
   padding-top: 0.5rem;
   text-align: center;
   color: rgb(26, 32, 44);
@@ -661,8 +621,8 @@ header .row {
   margin-right: -2rem;
 }
 
-.plan.plan:nth-child(1) .plan__middle,
-.plan.plan:nth-child(3) .plan__middle {
+.plan:nth-child(1) .plan__middle,
+.plan:nth-child(3) .plan__middle {
   border-top: 2px solid rgb(229, 231, 235);
   border-bottom: 2px solid rgb(229, 231, 235);
 }
