@@ -40,7 +40,7 @@ body {
 
 button {
   cursor: pointer;
-  border: none;
+  border: medium;
 }
 
 .text__purple {
@@ -730,6 +730,11 @@ header .row {
   color: #4a5568;
 }
 
+.testimonial__rating {
+  margin-right: 2px;
+  margin-top: 4px;
+}
+
 .testimonial__para {
   margin-top: 16px;
   margin-bottom: 32px;
@@ -742,6 +747,19 @@ header .row {
 .testimonial__bottom {
   display: flex;
   justify-content: space-between;
+}
+
+.testimonial__button:hover {
+  background-color: #e5e7eb;
+}
+
+.divider {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  border-right-width: 1px;
+  width: 0.5px;
+  height: 20px;
+  background: #edf2f7;
 }
 
 .testimonial__profile {
@@ -763,5 +781,102 @@ header .row {
 .testimonial__role {
   font-weight: 500;
   line-height: 1.5;
-  color: #7c8ba1
+  color: #7c8ba1;
+}
+
+.testimonial__buttons {
+  display: flex;
+  align-items: center;
+}
+
+.testimonial__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  background: rgb(237, 242, 247);
+  border-radius: 50%;
+  margin: 0px 12px;
+  transition: 300ms;
+}
+
+/* Start */
+
+#start .row {
+  position: relative;
+  overflow: hidden;
+}
+
+.start__container {
+  padding: 96px 0px;
+  width: 100%;
+  background: rgb(100, 21, 255);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.start__row {
+  width: 100%;
+  margin: 0px auto;
+  max-width: 1024px;
+  padding: 0px 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.start__title,
+.start__buttons {
+  width: 50%;
+}
+
+.start__title {
+  color: #f7fafc;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.5;
+  z-index: 2;
+}
+
+.start__buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.start__button {
+  padding: 20px 40px;
+  border-radius: 500px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #f7fafc;
+  line-height: 1.5;
+  margin: 1px;
+  z-index: 2;
+}
+
+.start__button:nth-child(1) {
+  background: #f56565;
+  box-shadow:
+    rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+    rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+    rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.5) 0px 4px 6px -2px;
+  margin-right: 32px;
+  transition: 300ms;
+}
+
+.start__button:nth-child(1):hover {
+  background-color: #de495d;
+}
+
+.start__button:nth-child(2) {
+  border: 1px solid rgb(160, 174, 192);
+  transition: 300ms;
+}
+
+.start__button:nth-child(2):hover {
+  background-color: #fff;
+  color: rgb(100, 21, 255);
 }
