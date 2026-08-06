@@ -924,17 +924,6 @@ footer {
   overflow: hidden;
 }
 
-.footer__blob--1 {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 320px;
-  height: 320px;
-  transform: translateX(-80px) translateY(-128px);
-  z-index: 1;
-  opacity: 0.5;
-}
-
 .footer__blob--2 {
   position: absolute;
   bottom: 0px;
