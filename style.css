@@ -1096,7 +1096,7 @@ footer {
   }
 
   .quality__img--wrapper {
-    scale: 90%
+    scale: 90%;
   }
 
   .values__list {
@@ -1132,4 +1132,4 @@ footer {
   .start__buttons {
     scale: 70%;
   }
-
+}
