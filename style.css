@@ -918,7 +918,7 @@ header .row {
 
 footer {
   padding: 96px 32px;
-  background-color:#6415ff;
+  background-color: #6415ff;
   margin-bottom: -32px;
   position: relative;
   overflow: hidden;
@@ -942,7 +942,7 @@ footer {
   flex-wrap: wrap;
 }
 
-.footer_column {
+.footer__column {
   margin-top: 48px;
   display: flex;
   flex-direction: column;
@@ -953,11 +953,11 @@ footer {
 .footer__column--title {
   font-weight: 700;
   line-height: 1.5;
-  color:#e5e7eb;
+  color: #e5e7eb;
 }
 
 .footer__column--link {
-  color:#e5e7eb;
+  color: #e5e7eb;
   font-size: 14px;
   line-height: 1.5;
   font-weight: 500;
@@ -970,7 +970,7 @@ footer {
   width: 100%;
   height: 2px;
   margin: 64px 0px;
-  background:#5d3eff;
+  background: #5d3eff;
 }
 
 .footer__bottom {
@@ -989,9 +989,9 @@ footer {
   width: 32px;
 }
 
-.footer__logo--text{
+.footer__logo--text {
   font-size: 20px;
-  color:#e5e7eb;
+  color: #e5e7eb;
   font-weight: 900;
   margin-left: 8px;
   letter-spacing: 0.05rem;
@@ -1029,4 +1029,80 @@ footer {
   border-radius: 50%;
   z-index: 2;
   cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+  .nav__links {
+    display: none;
+  }
+
+  .header__email {
+    position: absolute;
+  }
+
+  .header__email--btn {
+    position: relative;
+  }
+
+  #features .section__title,
+  #pricing .section__title {
+    font-size: 48px;
+  }
+
+  .section__para {
+    font-size: 16px;
+  }
+
+  .features {
+    max-width: 768px;
+  }
+
+  .feature {
+    width: calc(50%);
+  }
+
+  .quality__description {
+    margin-right: 0px;
+    padding-right: 48px;
+  }
+
+  .section__title {
+    font-size: 36px;
+  }
+
+  .values__list {
+    max-width: 20rem;
+    flex-direction: column;
+  }
+
+  .plans {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .plan {
+    margin-right: 0px;
+  }
+
+  #testimonial .container {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .testimonial__img {
+    width: 40%;
+  }
+
+  .testimonial__description {
+    padding-left: 48px;
+  }
+
+  #start .container {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .start__row {
+    flex-direction: column;
+  }
 }
