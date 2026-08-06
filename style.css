@@ -84,7 +84,7 @@ button {
 }
 
 .container {
-  padding: 96px 0;
+  padding: 96px 32px;
 }
 
 /* NAV BAR */
@@ -93,7 +93,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 32px;
+  padding: 32px 12px;
 }
 
 .nav__logo--picture {
@@ -1031,22 +1031,46 @@ footer {
   cursor: pointer;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .nav__links {
     display: none;
   }
 
-  .header__email {
-    position: absolute;
+  h1 {
+    font-size: 28px;
   }
 
-  .header__email--btn {
+  h2 {
+    font-size: 24px;
+  }
+
+  .header__description--para {
+    font-size: 16px;
+  }
+
+  .header__email {
+    max-width: 300px;
+  }
+
+  .header__email--input {
     position: relative;
   }
 
-  #features .section__title,
-  #pricing .section__title {
-    font-size: 48px;
+  .header__email--btn {
+    position: absolute;
+    height: 40px;
+    max-width: 100px;
+    font-size: 10px;
+    margin-right: 110px;
+  }
+
+  .header__img--wrapper {
+    scale: 85%;
+    margin-right: 50px;
+  }
+
+  .section__title {
+    font-size: 26px;
   }
 
   .section__para {
@@ -1055,54 +1079,57 @@ footer {
 
   .features {
     max-width: 768px;
+    margin-right: 75px;
   }
 
-  .feature {
-    width: calc(50%);
+  .feature__title {
+    font-size: 24px;
   }
 
-  .quality__description {
-    margin-right: 0px;
-    padding-right: 48px;
+  .feature__para {
+    font-size: 14px;
+    text-align: center;
   }
 
-  .section__title {
-    font-size: 36px;
+  .feature__img--wrapper {
+    scale: 70%;
+  }
+
+  .quality__img--wrapper {
+    scale: 90%
   }
 
   .values__list {
-    max-width: 20rem;
     flex-direction: column;
+  }
+
+  .value__title {
+    font-size: 18px;
+  }
+
+  .value__para {
+    font-size: 14px;
+  }
+
+  .values__img {
+    margin-right: 50px;
   }
 
   .plans {
-    align-items: center;
-    flex-direction: column;
+    scale: 75%;
+    margin-right: 140px;
   }
 
-  .plan {
-    margin-right: 0px;
+  .testimonials__description {
+    scale: 80%;
   }
 
-  #testimonial .container {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+  .start__title {
+    font-size: 22px;
+    text-align: center;
   }
 
-  .testimonial__img {
-    width: 40%;
+  .start__buttons {
+    scale: 70%;
   }
 
-  .testimonial__description {
-    padding-left: 48px;
-  }
-
-  #start .container {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-  }
-
-  .start__row {
-    flex-direction: column;
-  }
-}
