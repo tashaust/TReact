@@ -1157,6 +1157,14 @@ footer {
   }
 
   .feature__para {
+    font-size: 12px;
+  }
+
+    .section__title {
+    font-size: 22px;
+  }
+
+  .section__para {
     font-size: 14px;
   }
 }
