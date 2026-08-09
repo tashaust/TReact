@@ -1133,3 +1133,30 @@ footer {
     scale: 70%;
   }
 }
+
+@media (max-width: 480px) {
+  .header__email {
+    scale: 90%;
+  }
+
+  .header__email--btn {
+    max-width: 70px;
+  }
+
+  .header__customers--title,
+  .header__customers {
+    display: none;
+  }
+
+  .feature__title {
+    font-size: 18px;
+  }
+
+  .feature__title {
+    font-size: 16px;
+  }
+
+  .feature__para {
+    font-size: 14px;
+  }
+}
