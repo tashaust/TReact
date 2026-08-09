@@ -1148,8 +1148,36 @@ footer {
     display: none;
   }
 
-  .feature__title {
-    font-size: 18px;
+  .section__tag {
+  text-align: center;
+}
+
+  .features {
+    width: 100%;
+    margin-right: 0;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feature {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .feature__row {
+    width: 100%;
+    padding: 20px 0;
+  }
+
+  .feature__text {
+    flex: 1;
+  }
+
+  .feature__para {
+    max-width: none;
+    font-size: 14px;
+    line-height: 1.6;
+    text-align: left;
   }
 
   .feature__title {
@@ -1157,14 +1185,135 @@ footer {
   }
 
   .feature__para {
-    font-size: 12px;
+    font-size: 14px;
   }
 
     .section__title {
     font-size: 22px;
+    text-align: center;
   }
 
   .section__para {
-    font-size: 14px;
+    font-size: 16px;
+    text-align: center;
   }
+
+  #quality .row {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .quality__img--wrapper {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .step__number {
+font-size: 26px;
+}
+
+  .step__title {
+font-size: 18px;
+}
+
+  .step__para {
+font-size: 14px;
+}
+
+#steps .row {
+  flex-direction: column;
+}
+
+.steps__img--wrapper,
+.steps__description {
+  width: 100%;
+}
+
+.steps__description {
+  padding-left: 0;
+  margin-top: 32px;
+}
+
+.steps__img--wrapper {
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+  #values .row {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .values__description,
+  .values__img {
+    width: 100%;
+  }
+
+  .values__description {
+    padding: 0;
+  }
+
+  .values__list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .value {
+    margin: 24px 0 0;
+    align-items: center;
+    max-width: 300px;
+  }
+
+  .values__img {
+    max-width: 320px;
+    margin: 40px auto 0;
+  }
+
+.plans {
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  scale: 100%;
+  margin-right: 0;
+}
+
+.plan {
+  width: 100%;
+  max-width: 320px;
+}
+
+  .step__number {
+font-size: 26px;
+}
+
+  .step__title {
+font-size: 18px;
+}
+
+  .step__para {
+font-size: 14px;
+}
+
+#testimonials .row {
+  flex-direction: column;
+}
+
+.testimonial__title {
+font-size: 18px;
+text-align: center;
+}
+
+.testimonial__para {
+font-size: 16px;
+text-align: center;
+}
+
+.testimonial__rating {
+  text-align: center;
+}
+
+.testimonials__img {
+  margin-left: 20px;
+}
+
 }
